@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Elmesthy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>              
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Lavender Ladies hostel</h1>
+        <p>It is the one of the biggest PG in our surroundings and having many things beside our PG....</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>            
+
+
+    </section>
+<!----Course----->
+
+<section class="course">
+    <h1>Branches we are offering in Chennai</h1>
+    
+
+    <div class="row">
+        <div class="course-col">
+            <h3>SHOZINGANALLUR </h3>
+            <p>Our branch is located behind of ATTI Cafe which is located in OMR</p>
+        </div>
+        <div class="course-col">
+            <h3>KOYAMBEDU</h3>
+            <p>This branch is located in backside of koyambedu bus stand and walking distance from Metro</p>
+        </div>
+        <div class="course-col">
+            <h3>NAVALUR</h3>
+            <p>This is the main and first branch we located in Chennai and its our favourite spot</p>
+</section>
+
+<!-----campus----->
+<section class="campus">
+    <h1>Our Branches</h1>
+    
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/shozinganallur.jpg" height="250px" width="250px">
+            <div class="layer">
+                <h3>Sholinganallur</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/koyambedu.webp" height="250px" width="250px">
+            <div class="layer">
+                <h3>Koyambedu</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/navalur.jpg" height="250px" width="250px">
+            <div class="layer">
+                <h3>Navalur</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-----Facilities----->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+
+    <div class="row">
+        
+        <div class="campus-col">
+            <img src="images/room.jpg" height="250px" width="250px">
+            <div class="layer">
+            <h3>Neat rooms</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+        <img src="images/garden.jpg" height="250px" width="250px">
+        <div class="layer">
+        <h3>Garden</h3>
+        </div>
+        </div>
+        <div class="campus-col">
+        <img src="images/cafeteria.png" height="250px" width="250px">
+        <div class="layer">
+        <h3>Tasty and Healthy Food</h3>
+        </div>
+</div>
+
+</section>
+
+
+<section class="testimonials">
+    <h1>What Our tenant Says</h1>
+    
+    
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user img.png">
+            <div>
+                <p>one of the best PG in surroundings and rent wise convinient too</p>
+                <h3>Kaviya</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user img.png">
+            <div>
+                <p>Food is nice comparing to other PG's and it is very clean</p>
+                <h3>Leela</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-----Call To Action----->
+
+<section class="cta">
+    <h1>Enroll For Our PG in online<br>Anywhere from The
+        Chennai</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-----Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>we lavender ladies hostel having 3 branches in Chennai and our motive is to maintain a neat and clean PG among worst ones... </p>
+    <div class="icons"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+    </div>
+   
+</section>
+
+
+<!-----Javascript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
